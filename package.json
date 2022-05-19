@@ -5,13 +5,13 @@
     "express": "^4.18.1",
     "mongodb": "^4.6.0"
   },
-  "name": "todo-app-server",
-  "start":"node index.js",
   "start-dev":"nodemon index.js",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
+    "name": "todo-app-server",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
